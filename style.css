@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+   font-family: 'Open-sans', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url('background image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    margin: 20px 0px 20px 0px;
+    font-size: 75px;
+    color: white;
+}
+   nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 45px 0px 15px 15px;
+    vertical-align: text-top;
+   }
+   .logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+   }
+   span{
+    color: blue;
+   }
+   ul{
+    list-style-type: none;
+    display: flex;
+   }
+   nav ul li a {
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 10px;
+    vertical-align: top;
+     }
+     nav ul li a:hover{
+        background-color: blueviolet;
+     }
+     .btn{
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px 5px;
+        border-radius: 30px;
+        margin: 30px 10px 15px 0px;
+     }
+     .content{
+        margin: 70px 70px;
+        color: white;        
+     }
+     .theh3{
+        color: brown;
+        letter-spacing: 3px;
+        font-size: 35px;
+     }
+     form{
+        width:380px;
+        position: relative;
+        display: flex;
+        }
+    form input:first-child{
+        width:61%;
+        padding: 14px 130px 14px 15px;
+        border: 2px solid yellowgreen;
+        border-radius: 30px;
+        outline: none;
+    }
+    form input:last-child{
+    background-color: yellowgreen;
+    padding: 10px 30px;
+    border-radius: 30px;
+    position: absolute;
+    border:none;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+    }
+    .about{
+      width: 100%;
+      padding:100px 0px;
+      background-color: #191919;
+    }
+    .main img{
+      height: 400px;
+      width: 430px;
+    }
+    .about-text{
+      width: 550px;
+    }
+    .main{
+      width: 1150px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .about-text h2{
+      color:white;
+      font-size: 75px;
+      text-transform:capitalize;
+      margin-bottom: 20px;
+    }
+    .about-text h5{
+      color:white;
+      letter-spacing: 2px;
+      font-size: 22px;
+      margin-bottom: 25px;
+      text-transform: capitalize;
+    }
+    .about-text p{
+      color: white;
+      letter-spacing:1px;
+      font-size: 18px;
+      margin-bottom: 45px;
+    }
+  button{
+   background-color: yellowgreen;
+   color: white;
+   text-decoration: none;
+   border: 2px solid yellowgreen;
+   font-weight: bold;
+   padding: 13px 30px;
+   border-radius: 30px;
+   cursor: pointer;
+}
+.love{
+  background-color: black;
+  color: white;
+}
+.web{
+  display: flex;
+}
+.service{
+  text-align: center;
+  font-size: 25px;
+}
+.fa-solid{
+ color: yellowgreen;
+ font-size:30px;
+}
+.web{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size:20px;
+  font-weight:bold;
+  line-height: 30px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content:space-around;
+}
+.black{
+ text-align: center;
+ font-size: 20px; 
+ font-weight: bold;
+ background-color: black;
+ color: white;
+}
+.Adewale{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.twiter{
+  text-align: center;
+  border-radius: 50%;
+  padding: 2px;
+}
+.copy{
+  text-align: center;
+  font-size: 15px;
+  font-weight:bold;
+}
+.Instagram{
+  background-color: #191919;
+  color: white;
+}
+.inspect{
+  border-radius: 50%;
+  width:50px;
+  padding-left: 20px;
+}
+/* media queries */
+@media(max-width: 768px){
+  nav{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+   } 
+   ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+   }
+   li{
+    padding: 10px 2px;
+   }
+   .content{
+    margin: 12px 27px;
+    color: white;        
+ }
+ h1{
+font-size: 30px;
+ }
+ .theh3{
+  color: brown;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+form{
+  width:200px;
+  position: relative;
+}
+form input:last-child{
+  background-color: yellowgreen;
+  padding: 10px 30px;
+  border-radius: 30px;
+  position: absolute;
+  border:none;
+  top: 6px;
+  right: 5px;
+  cursor: pointer;
+  }
+  .main{
+    margin: 20px 20px;
+    display: block;
+  }
+  .about-text h2{
+    color:white;
+    font-size: 50px;
+    text-transform:capitalize;
+    margin: 20px 20px;
+  }
+  .about-text{
+    padding: 10px 3px;
+  }
+  .about-text h5{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  .btn {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 18px 20px;
+    border-radius: 30px;
+    margin: 45px 125px 15px 125px;
+}
+.web{
+  display: block;
+}
+ }
+@media(max-width: 992px){
+  nav{
+    display:flex;
+    flex-direction: column;
+     } 
+     .logo {
+      padding-bottom: 10px;
+      color: white;
+      font-size: 35px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      margin-left: 10px;
+  }
+     nav ul li a {
+      color: blueviolet;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: capitalize;
+      padding: 5px;
+      vertical-align: top;
+      margin-left: 10px;
+      font-size: 20px;
+     } 
+     .btn {
+      background-color: blue;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 19px 23px;
+      border-radius: 30px;
+      
+  }
+  .content {
+    margin: 14px 73px;
+    color: white;
+}
+     nav{
+      justify-content: space-between;
+      padding: 45px 0px 15px 15px;
+      vertical-align: text-top;
+     }
+     .main {
+      width: 1020px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+}
